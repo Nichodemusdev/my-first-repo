@@ -1,0 +1,86 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+}
+
+.screen {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0;
+}
+
+.country {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0;
+    color: hsl(75, 94%, 57%);
+}
+
+.dev {
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+}
+
+.option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.options {
+    background-color: Grey;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+@media (max-width: 375px) {
+    .screen {
+        padding: 10px;
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .option-container {
+        flex-direction: column;
+    }
+
+    .options {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
