@@ -58,6 +58,10 @@ To modify the profile page, you can edit the index.html and style.css files. The
 
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
 ## Acknowledgements
 
 - [Frontend Mentor](https://www.frontendmentor.io/) for providing the design challenge.
